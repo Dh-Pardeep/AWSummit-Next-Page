@@ -1,0 +1,1018 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/image/webp/favicon.webp" type="image/x-icon">
+    <!-- Style css -->
+    <link rel="stylesheet" href="./assets/css/Style.css">
+    <!-- Root css -->
+    <link rel="stylesheet" href="./assets/css/Root.css">
+    <title>AWSummit</title>
+    <!-- bootstrap Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- ========SLICK SLIDER LINKS======== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- aos linkl -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- ================nav bar================== -->
+    <header>
+        <div class="Nav_container">
+            <nav class="d-flex justify-content-between py-3  p-0 align-items-center">
+                <div class="d-flex align-items-center justify-content-between w_100 W_unset">
+                    <a class="d-flex" href="#">
+                        <img src="/assets/image/webp/Nav_bar_logo.webp" alt="logo">
+                    </a>
+                    <div class="d-none d-md-block d-lg-none ms-auto">
+                        <a href="#" class="color_darkblack fs_xsm ff_jakarta fw-bolder EXHIBIT ">EXHIBIT</a>
+                        <a href="#" class="color_white fs_xsm ff_jakarta fw-bolder ms_md_20 TICKETS me-4">GET
+                            TICKETS</a>
+                    </div>
+                </div>
+                <ul class="d-flex align-items-center justify-content-center flex-lg-row flex-column  mb-0 sm-navbar p-0"
+                    id="nav">
+                    <li><a onclick="navresponsive()"
+                            class=" color_darkblack fs_xxsm ff_jakarta fw-semibold me-xl-4 me-lg-3 mt-4 mt-lg-0 d-inline-block nav_line"
+                            href="#PARTICIPANTS">PARTICIPANTS</a>
+                    </li>
+                    <li><a onclick="navresponsive()"
+                            class="color_darkblack fs_xxsm ff_jakarta fw-semibold me-xl-4 me-lg-3 ms-xl-2 mt-4 mt-lg-0 d-inline-block nav_line"
+                            href="#AGENDA">AGENDA</a>
+                    </li>
+                    <li><a onclick="navresponsive()"
+                            class="color_darkblack fs_xxsm ff_jakarta fw-semibold me-xl-4 me-lg-3 ms-xl-2 mt-4 mt-lg-0 d-inline-block nav_line"
+                            href="#passengers">SPEAKERS</a>
+                    </li>
+                    <li><a onclick="navresponsive()"
+                            class="color_darkblack fs_xxsm ff_jakarta fw-semibold me-xl-4 me-lg-3 ms-xl-2 mt-4 mt-lg-0 d-inline-block nav_line"
+                            href="#FAQS">FAQs</a>
+                    </li>
+                    <li><a onclick="navresponsive()"
+                            class="color_darkblack fs_xxsm ff_jakarta fw-semibold me-lg-3  mt-4 mt-lg-0 d-inline-block nav_line"
+                            href="#Login">LOGIN</a>
+                    </li>
+                    <li><a href="#" onclick="navresponsive()"
+                            class="color_darkblack fs_xxsm ff_jakarta fw-bolder EXHIBIT ms-lg-3 ms-xl-5  d-md-none d-lg-block mt-5 mt-lg-0 d-inline-block ">EXHIBIT</a>
+                    </li>
+                    <li>
+                        <a href="#" onclick="navresponsive()"
+                            class="color_white fs_xxsm ff_jakarta fw-bolder TICKETS ms_md_20 d-md-none d-lg-block mt-4 mt-lg-0 d-inline-block">GET
+                            TICKETS</a>
+                    </li>
+                </ul>
+                <label for="menuicon" onclick="navresponsive()" class="d-lg-none" id="change">
+                    <span class="bar1"></span>
+                    <span class="bar2"></span>
+                    <span class="bar3"></span>
+                </label>
+            </nav>
+        </div>
+    </header>
+    <!-- hero section -->
+    <div class="HeroSactionBG">
+        <div class="custom_container">
+            <div class="py-sm-5" data-aos="zoom-in" data-aos-delay="500">
+                <div class="py-md-5 py-4">
+                    <h1 class="lh_110 color_white ff_barlow fs_5xl fst-normal lh_110 fw-bold text-center pt-5 mb-0">OUR
+                        SPONSER & EXHIBIT</h1>
+                    <p
+                        class="color_white ff_jakarta fs_lg fst-normal  fw-medium lh_150 text-center pb-5 mb-0 max_w_926 mx-auto">
+                        Where
+                        Discover opportunities to get involved from booths to networking events, hospitality packages
+                        and party sponsorships.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Expect -->
+    <section class="py-5">
+        <div class="custom_container py-xl-4 my-md-4 my-lg-5">
+            <div class="row align-items-center">
+                <div class="col-lg-6" data-aos="fade-right" data-aos-delay="500">
+                    <div class="d-flex justify-content-center text-center ">
+                        <img class="book-img w-100" src="./assets/image/webp/book.webp" alt="book" />
+                    </div>
+                </div>
+                <div class="col-lg-6 ps-lg-0" data-aos="fade-left" data-aos-delay="500">
+                    <ul class="ps-lg-0">
+                        <li class="ff_barlow fw-semibold fs_3xl color_darkblack lh_120 mt-lg-0 mt-4">
+                            What to Expect
+                        </li>
+                        <li class="ff_jakarta my-1 fw-medium fs_md color_darkblack lh_183 mt-3">
+                            1. Expose your company/ brand to 3000 attendees
+                        </li>
+                        <div class="line_one"></div>
+                        <li class="ff_jakarta my-1 fw-medium fs_md color_darkblack lh_183">
+                            2. Reach a targeted audience
+                        </li>
+                        <div class="line_one"></div>
+                        <li class="ff_jakarta my-1 fw-medium fs_md color_darkblack lh_183">
+                            3. Find the biggest traffic sources
+                        </li>
+                        <div class="line_one"></div>
+                        <li class="ff_jakarta my-1 fw-medium fs_md color_darkblack lh_183 white-space">
+                            4. Network with CEOs, CMOs & other key decision makers
+                        </li>
+                        <div class="line_one"></div>
+                        <li class="ff_jakarta my-1 fw-medium fs_md color_darkblack lh_183">
+                            5. Generate leads and increase your ROI
+                        </li>
+                    </ul>
+                    <p class="fw-normal ff_jakarta fs_xsm color_gray mt-4 pt-1 mb-0">
+                        Expose your business to more than 3000 attendees, affiliate and
+                        affiliate networks, advertisers, tracking solutions, e-commerce
+                        experts, traffic sources, billing and payment companies, content
+                        creators and other industry-leading experts and representatives.
+                    </p>
+                    <div class="d-flex flex-wrap gap-xl-4 gap-lg-2 gap-4 mt-5 pt-3">
+                        <button class="book-button cursor_pointer ff_barlow fw-semibold fs_lg color_white">
+                            Book Your Booth
+                        </button>
+                        <button class="book-button cursor_pointer ff_barlow fw-semibold fs_lg color_white">
+                            View SponsErship Packages
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Main vertical -->
+    <section class="pb-5">
+        <div class="custom_container pb-xl-4 mb-md-4 mb-lg-5">
+            <div class="d-flex justify-content-center" data-aos="fade-up" data-aos-delay="500">
+                <h3 class="ff_barlow fw-semibold fs_3xl mb-3 pb-1 color_darkblack lh_120">
+                    Main Verticals
+                </h3>
+            </div>
+            <div class="d-flex justify-content-center flex-wrap gap-1">
+                <div class="color_navy blue_box p-3 px-lg-3 px-5 cursor_pointer mx-2 " data-aos="zoom-in"
+                    data-aos-delay="500">
+                    <div class="d-flex justify-content-center mt-3">
+                        <img src="./assets/image/svg/lead.webp" alt="lead" />
+                    </div>
+                    <p class="ff_jakarta fw-normal fs_lg lh_125 color_white text-center mb-0 mt-3">
+                        Lead Generation
+                    </p>
+                </div>
+                <div class="color_navy blue_box p-3 px-lg-3 px-5 cursor_pointer mx-2 " data-aos="zoom-in"
+                    data-aos-delay="500">
+                    <div class="d-flex justify-content-center mt-3">
+                        <img src="./assets/image/svg/heart.webp" alt="heart" />
+                    </div>
+                    <p class="ff_jakarta fw-normal fs_lg lh_125 color_white text-center mb-0 mt-3">
+                        Dating
+                    </p>
+                </div>
+                <div class="color_navy blue_box p-3 px-lg-3 px-5 cursor_pointer mx-2 " data-aos="zoom-in"
+                    data-aos-delay="500">
+                    <div class="d-flex justify-content-center mt-3">
+                        <img src="./assets/image/svg/market.webp" alt="market" />
+                    </div>
+                    <p class="ff_jakarta fw-normal fs_lg lh_125 color_white text-center mb-0 mt-3">
+                        E-commerce
+                    </p>
+                </div>
+                <div class="color_navy blue_box p-3 px-lg-3 px-5 cursor_pointer mx-2 " data-aos="zoom-in"
+                    data-aos-delay="500">
+                    <div class="d-flex justify-content-center mt-3">
+                        <img src="./assets/image/svg/traffic.webp" alt="traffic" />
+                    </div>
+                    <p class="ff_jakarta fw-normal fs_lg lh_125 color_white text-center mb-0 mt-3">
+                        Traffic
+                    </p>
+                </div>
+                <div class="color_navy blue_box p-3 px-lg-3 px-5 cursor_pointer mx-2 " data-aos="zoom-in"
+                    data-aos-delay="500">
+                    <div class="d-flex justify-content-center mt-3">
+                        <img src="./assets/image/svg/affiliate.webp" alt="affiliate" />
+                    </div>
+                    <p class="ff_jakarta fw-normal fs_lg lh_125 color_white text-center mb-0 mt-3">
+                        Affiliate Marketing
+                    </p>
+                </div>
+                <div class="color_navy blue_box p-3 px-lg-3 px-5 cursor_pointer mx-2 " data-aos="zoom-in"
+                    data-aos-delay="500">
+                    <div class="d-flex justify-content-center mt-3">
+                        <img src="./assets/image/svg/coin.webp" alt="coin" />
+                    </div>
+                    <p class="ff_jakarta fw-normal fs_lg lh_125 color_white text-center mb-0 mt-3">
+                        Betting
+                    </p>
+                </div>
+                <div class="color_navy blue_box p-3 px-lg-3 px-5 cursor_pointer mx-2 " data-aos="zoom-in"
+                    data-aos-delay="500">
+                    <div class="d-flex justify-content-center mt-3">
+                        <img src="./assets/image/svg/money.webp" alt="money" />
+                    </div>
+                    <p class="ff_jakarta fw-normal fs_lg lh_125 color_white text-center mb-0 mt-3">
+                        Finance
+                    </p>
+                </div>
+                <div class="color_navy blue_box p-3 px-lg-3 px-5 cursor_pointer mx-2 " data-aos="zoom-in"
+                    data-aos-delay="500">
+                    <div class="d-flex justify-content-center mt-3">
+                        <img src="./assets/image/svg/file.webp" alt="file" />
+                    </div>
+                    <p class="ff_jakarta fw-normal fs_lg lh_125 color_white text-center mb-0 mt-3">
+                        Nutra
+                    </p>
+                </div>
+                <div class="color_navy blue_box p-3 px-lg-3 px-5 cursor_pointer mx-2 " data-aos="zoom-in"
+                    data-aos-delay="500">
+                    <div class="d-flex justify-content-center mt-3">
+                        <img src="./assets/image/svg/video.webp" alt="video" />
+                    </div>
+                    <p class="ff_jakarta fw-normal fs_lg lh_125 color_white text-center mb-0 mt-3">
+                        Streaming
+                    </p>
+                </div>
+                <div class="color_navy blue_box p-3 px-lg-3 px-5 mx-2" data-aos="zoom-in" data-aos-delay="500">
+                    <div class="d-flex justify-content-center mt-3">
+                        <img src="./assets/image/svg/camra.webp" alt="camra" />
+                    </div>
+                    <p class="ff_jakarta fw-normal fs_lg lh_125 color_white text-center mb-0 mt-3">
+                        Live Cams
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- moal section -->
+    <div class="modals_img position-relative pb-5 mb-sm-4 mb-md-5 " data-aos="zoom-in" data-aos-delay="500">
+        <div class="position-absolute top-50 start-50 translate-middle pb-lg-4">
+            <!-- Button trigger modal -->
+            <button data-bs-toggle="modal" data-bs-target="#exampleModal" type="button"
+                class="d-flex align-items-center justify-content-center Play_button_bg cursor_pointer ">
+                <img class="Play_button ms-1 " src="./assets/image/svg/Play_Button.svg" alt="Play Button">
+            </button>
+        </div>
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-body position-relative">
+                        <button type="button" class="btn-close btn-close-white position-absolute  fs_xl"
+                            data-bs-dismiss="modal"></button>
+                        <iframe class="youtube_link" width="560" height="315"
+                            src="https://www.youtube.com/embed/wa0IVAIqbo0?si=88bXY1sDe_24IbJQ"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- =============  slider============ -->
+    <div class="box_shadow">
+        <div class="custom_container py-4" data-aos="fade-right" data-aos-delay="500">
+            <div id="wrap">
+                <div id="slider" class="d-flex align-items-center ps-0">
+                    <div class="slide-item cursor_pointer py-3 px-4">
+                        <img src="./assets/image/webp/AD_Media_cards.webp" alt="画像" class="w-75" />
+                    </div>
+                    <div class="slide-item mt-1 cursor_pointer py-3 px-4">
+                        <img src="./assets/image/webp/Honeywell.webp" alt="画像" class="w-75" />
+                    </div>
+                    <div class="slide-item cursor_pointer py-3 px-4">
+                        <img src="./assets/image/webp/Traffic_manager.webp" alt="画像" class="w-75" />
+                    </div>
+                    <div class="slide-item cursor_pointer py-3 px-4">
+                        <img src="./assets/image/webp/ad_supply.webp" alt="画像" class="w-75" />
+                    </div>
+                    <div class="slide-item cursor_pointer py-3 px-4">
+                        <img src="./assets/image/webp/weloveADZ.webp" alt="画像" class="w-75" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Discover-Section -->
+    <section class="bg_dark_blue py-5 mt_min2">
+        <div class="custom_container">
+            <div class="pb-xl-4 my-md-4 my-lg-5">
+                <div class=" pt-xl-4" data-aos="fade-up" data-aos-delay="500">
+                    <h2 class="ff_barlow text-center fw-semibold fs_3xl lh_120 color_white pb_18 mb-0">EXHIBIT AT
+                        AWSUMMIT
+                        DISCOVER THE BEST OPTION FOR
+                        YOUR BRAND</h2>
+                    <p class="ff_barlow fs_md fw-medium lh_135  text-center color_white mb-4 mb-md-5">Act fast!
+                        Availability
+                        is
+                        LIMITED</p>
+                </div>
+                <div class="d-flex justify-content-center justify-content-xl-between gap-3 flex-wrap">
+                    <div class="contact_card p-4 bg-white d-flex flex-column justify-content-between"
+                        data-aos="flip-left" data-aos-delay="500">
+                        <div>
+                            <img class="pb_22 plr_2" src="./assets/image/webp/contactimageOne.webp"
+                                alt="contactimageOne">
+                            <p class="ff_jakarta fs_md color_black fw-semibold lh_150 pb_10 mb-0 text-center">SMALL
+                                BOOTH (S)</p>
+                            <div class="mb-3 d-flex justify-content-between align-items-center ">
+                                <p class="ff_jakarta fs_xsm fw-normal lh_150 opacity-75 color_darkblack mb-0">16
+                                    AVAILABLE</p>
+                                <p class="ff_jakarta fs_xsm fw-semibold color_blue lh_150 mb-0">€4,000</p>
+                            </div>
+                        </div>
+                        <button class="ff_jakarta fs_xsm fw-semibold lh_150 color_white  mb-0 bg_blue contact_btn">
+                            CONTACT US
+                        </button>
+                    </div>
+                    <div class="contact_card p-4 bg-white d-flex flex-column justify-content-between"
+                        data-aos="flip-left" data-aos-delay="500">
+                        <div>
+                            <img class="pb_22 plr_2" src="./assets/image/webp/contactimagetwo.webp"
+                                alt="contactimagetwo">
+                            <p class="ff_jakarta fs_md color_black fw-semibold lh_150 pb_10 mb-0 text-center">MEDIUM
+                                BOOTH (M)</p>
+                            <div class="mb-3 d-flex justify-content-between align-items-center ">
+                                <p class="ff_jakarta fs_xsm fw-normal lh_150 opacity-75 color_darkblack mb-0">SOLD OUT
+                                </p>
+                                <p class="ff_jakarta fs_xsm fw-semibold color_blue lh_150 mb-0">€10,000</p>
+                            </div>
+                        </div>
+                        <button class="ff_jakarta fs_xsm fw-semibold lh_150 color_white  mb-0 bg_blue contact_btn">
+                            CONTACT US
+                        </button>
+                    </div>
+                    <div class="contact_card p-4 bg-white d-flex flex-column justify-content-between"
+                        data-aos="flip-left" data-aos-delay="500">
+                        <div>
+                            <img class="pb_22 plr_2" src="./assets/image/webp/contactimagethree.webp"
+                                alt="contactimagethree">
+                            <p class="ff_jakarta fs_md color_black fw-semibold lh_150 pb_10 mb-0 text-center">LARGE
+                                BOOTH (L)</p>
+                            <div class="mb-3 d-flex justify-content-between align-items-center ">
+                                <p class="ff_jakarta fs_xsm fw-normal lh_150 opacity-75 color_darkblack mb-0">4
+                                    AVAILABLE</p>
+                                <p class="ff_jakarta fs_xsm fw-semibold color_blue lh_150 mb-0">€25,000</p>
+                            </div>
+                        </div>
+                        <button class="ff_jakarta fs_xsm fw-semibold lh_150 color_white  mb-0 bg_blue contact_btn">
+                            CONTACT US
+                        </button>
+                    </div>
+                    <div class="contact_card contact_card2 bg-white d-flex flex-column justify-content-between"
+                        data-aos="flip-left" data-aos-delay="500">
+                        <!-- <img class="pb_22 plr_2 " src="./assets/image/webp/contactimagefour.webp" alt="contactimagefour"> -->
+                        <div>
+                            <div class="pb_30 text-center"><svg width="82" height="82" viewBox="0 0 82 82" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M37.0281 5.44531C36.7398 5.62148 36.3875 5.97383 36.2273 6.23008C36.0832 6.47031 35.5707 8.23203 35.1062 10.1219L34.2414 13.5652L33.1844 13.8535C31.6469 14.2539 29.1164 15.2789 27.627 16.0957L26.3457 16.7844L23.2867 14.9586C21.6051 13.9496 19.9875 13.0848 19.6832 13.0367C18.466 12.8285 18.0016 13.1328 15.5031 15.6473C13.4371 17.7453 13.1648 18.0977 13.0527 18.6902C13.0047 19.0746 12.9887 19.5711 13.0527 19.8273C13.1008 20.0676 13.9656 21.6371 14.9586 23.3027L16.7844 26.3297L16.0156 27.7871C15.0867 29.5168 14.2059 31.727 13.8535 33.1844L13.5813 34.2414L10.1379 35.1063C8.23203 35.5707 6.47031 36.0832 6.23008 36.2273C5.97383 36.3875 5.62148 36.7398 5.44531 37.0281C5.15703 37.5086 5.125 37.8449 5.125 41C5.125 44.1551 5.15703 44.4914 5.44531 44.9719C5.62148 45.2602 5.97383 45.6125 6.23008 45.7727C6.47031 45.9168 8.23203 46.4293 10.1379 46.8938L13.5813 47.7586L13.8375 48.7996C14.2059 50.225 15.2469 52.8195 16.0797 54.373L16.7844 55.6703L14.9586 58.6973C13.9656 60.3629 13.1008 61.9324 13.0527 62.1727C12.9887 62.4289 12.9887 62.9254 13.0527 63.3098C13.1488 63.9184 13.4211 64.2387 15.5992 66.4008C17.7613 68.5789 18.0816 68.8512 18.6902 68.9473C19.0746 69.0113 19.5711 69.0113 19.8273 68.9473C20.0676 68.8992 21.6371 68.0344 23.3188 67.0414L26.3457 65.2156L27.627 65.9043C29.1164 66.7211 31.6469 67.7461 33.1844 68.1465L34.2414 68.4348L35.1062 71.8781C35.5707 73.768 36.0832 75.5297 36.2273 75.7699C36.3875 76.0262 36.7398 76.3785 37.0281 76.5547C37.5086 76.843 37.8449 76.875 41 76.875C44.1551 76.875 44.4914 76.843 44.9719 76.5547C45.2602 76.3785 45.6125 76.0262 45.7727 75.7699C45.9168 75.5297 46.4293 73.768 46.8937 71.8621L47.7586 68.4187L48.8156 68.1465C50.273 67.7941 52.4832 66.9133 54.2129 65.9844L55.6703 65.2156L58.6973 67.0414C60.3629 68.0344 61.9324 68.8992 62.1727 68.9473C62.4289 69.0113 62.9254 69.0113 63.3098 68.9473C63.9184 68.8512 64.2387 68.5789 66.4008 66.4008C68.5789 64.2387 68.8512 63.9184 68.9473 63.3098C69.0113 62.9254 69.0113 62.4289 68.9473 62.1727C68.8992 61.9324 68.0344 60.3629 67.0414 58.6812L65.2156 55.6543L65.9043 54.373C66.7211 52.8836 67.7461 50.3531 68.1465 48.8156L68.4348 47.7586L71.8781 46.8938C73.768 46.4293 75.5297 45.9168 75.7699 45.7727C76.0262 45.6125 76.3785 45.2602 76.5547 44.9719C76.843 44.4914 76.875 44.1551 76.875 41C76.875 37.8449 76.843 37.5086 76.5547 37.0281C76.3785 36.7398 76.0262 36.3875 75.7699 36.2273C75.5297 36.0832 73.768 35.5707 71.8621 35.1063L68.4187 34.2414L68.1625 33.2004C67.7941 31.775 66.7531 29.1805 65.9203 27.627L65.2156 26.3297L67.0574 23.2867C68.0504 21.6051 68.9152 19.9875 68.9633 19.6832C69.1715 18.466 68.8672 18.0016 66.3527 15.5031C64.2547 13.4371 63.9023 13.1648 63.3098 13.0527C62.9254 13.0047 62.4289 12.9887 62.1727 13.0527C61.9324 13.1008 60.3629 13.9656 58.6973 14.9586L55.6703 16.7844L54.2129 16.0156C52.4832 15.0867 50.273 14.2059 48.8156 13.8535L47.7586 13.5813L46.8937 10.1379C46.4293 8.23203 45.9168 6.47031 45.7727 6.23008C45.6125 5.97383 45.2602 5.62148 44.9719 5.44531C44.4914 5.15704 44.1551 5.125 41 5.125C37.8449 5.125 37.5086 5.15704 37.0281 5.44531ZM44.5234 20.9164C47.3742 21.4289 50.3852 22.6781 52.6754 24.2957C54.1488 25.3367 56.4871 27.659 57.5602 29.1324C59.2738 31.5348 60.507 34.4336 61.0836 37.4605C61.4199 39.1902 61.4199 42.7137 61.0836 44.6035C59.6582 52.8836 52.8836 59.6582 44.6035 61.0836C42.7137 61.4199 39.1902 61.4199 37.4605 61.0836C34.5457 60.5391 31.5988 59.3059 29.3246 57.7043C27.8512 56.6633 25.5129 54.341 24.4398 52.8676C22.7262 50.4652 21.493 47.5664 20.9164 44.5395C20.5801 42.8098 20.5801 39.2863 20.9164 37.3965C22.1336 30.3176 27.3387 24.1836 34.2094 21.7332C37.3004 20.6281 41.1762 20.3238 44.5234 20.9164Z"
+                                        fill="#6C7891" />
+                                    <path
+                                        d="M37.3163 23.3667C30.1733 24.9523 24.8241 30.3015 23.3827 37.3163C23.0784 38.7577 23.0464 39.3663 23.1104 41.5605C23.2065 44.4913 23.4788 45.8847 24.4717 48.1749C26.6339 53.2038 31.1182 57.0316 36.5155 58.457C38.5815 59.0015 42.4253 59.0816 44.6354 58.6331C51.6983 57.1757 57.1757 51.7144 58.6171 44.6675C59.0655 42.4894 59.0014 38.6296 58.4889 36.5796C56.8714 30.2534 51.7464 25.1284 45.4202 23.5109C43.5143 23.0304 39.2061 22.9503 37.3163 23.3667ZM41.6405 25.9452C42.0889 26.1855 42.2811 26.9862 42.2811 28.7159V30.3335L43.9467 28.6999C45.3401 27.3226 45.6764 27.0663 46.1089 27.0663C46.7495 27.0663 47.246 27.5628 47.246 28.2195C47.246 28.6519 46.9257 29.0523 44.7635 31.2304L42.2811 33.7288V36.2433C42.2811 37.6206 42.3292 38.7577 42.3772 38.7577C42.4253 38.7577 43.6424 38.053 45.0839 37.1882L47.6944 35.6347L48.5432 32.5116C48.9917 30.798 49.4401 29.2284 49.5362 29.0363C49.7604 28.5398 50.5132 28.2515 51.0257 28.4757C51.8104 28.8441 51.8424 29.2925 51.2659 31.5027C50.9776 32.6077 50.7854 33.5366 50.8335 33.5847C50.8815 33.6327 51.4901 33.3445 52.1788 32.928C52.8674 32.5277 53.6362 32.1913 53.8604 32.1913C54.6452 32.1913 55.1417 33.0402 54.8374 33.857C54.7733 34.0011 54.0526 34.5296 53.2358 35.0101C52.403 35.5066 51.7303 35.971 51.7303 36.0351C51.7303 36.0991 51.9225 36.2113 52.1788 36.2593C54.501 36.8198 56.2948 37.4124 56.551 37.6847C57.1917 38.3734 56.6792 39.5585 55.7342 39.5585C55.478 39.5585 53.7803 39.1581 51.9546 38.6616L48.6393 37.7808L46.0288 39.3503C44.5874 40.2152 43.4022 40.9519 43.4022 40.9999C43.4022 41.048 44.5874 41.7847 46.0288 42.6495L48.6393 44.2191L51.9546 43.3382C53.7803 42.8417 55.478 42.4413 55.7503 42.4413C56.6952 42.4413 57.2077 43.6105 56.551 44.3152C56.2948 44.5874 54.501 45.18 52.1788 45.7405C51.9225 45.7886 51.7303 45.9007 51.7303 45.9648C51.7303 46.0288 52.403 46.4933 53.2358 46.9898C54.0526 47.4702 54.7733 47.9987 54.8374 48.1429C55.1417 48.9597 54.6452 49.8085 53.8604 49.8085C53.6362 49.8085 52.8674 49.4722 52.1788 49.0718C51.4901 48.6554 50.8815 48.3671 50.8335 48.4152C50.7854 48.4632 50.9776 49.3921 51.2659 50.4972C51.8424 52.7073 51.8104 53.1558 51.0257 53.5241C50.5132 53.7484 49.7604 53.4601 49.5362 52.9636C49.4401 52.7714 48.9917 51.2019 48.5432 49.4882L47.6944 46.3652L45.0839 44.7956C43.6424 43.9468 42.4253 43.2421 42.3772 43.2421C42.3292 43.2421 42.2811 44.3792 42.2811 45.7566V48.271L44.7635 50.7695C46.9257 52.9476 47.246 53.348 47.246 53.7804C47.246 54.437 46.7495 54.9335 46.1089 54.9335C45.6764 54.9335 45.3401 54.6773 43.9467 53.2999L42.2811 51.6663V53.2999C42.2811 55.7343 41.8487 56.455 40.5835 56.1507C39.9589 55.9905 39.7186 55.2058 39.7186 53.2999V51.6663L38.053 53.2999C36.6596 54.6773 36.3233 54.9335 35.8909 54.9335C35.2503 54.9335 34.7538 54.437 34.7538 53.7804C34.7538 53.348 35.0741 52.9476 37.2362 50.7695L39.7186 48.271V45.7566C39.7186 44.3792 39.6706 43.2421 39.6225 43.2421C39.5745 43.2421 38.3573 43.9468 36.9159 44.8116L34.3053 46.3652L33.4565 49.4882C33.0081 51.2019 32.5596 52.7714 32.4635 52.9636C32.2393 53.4601 31.4866 53.7484 30.9741 53.5241C30.1893 53.1558 30.1573 52.7073 30.7339 50.4972C31.0221 49.3921 31.2143 48.4632 31.1663 48.4152C31.1182 48.3671 30.5096 48.6554 29.821 49.0718C29.1323 49.4722 28.3635 49.8085 28.1393 49.8085C27.3546 49.8085 26.8581 48.9597 27.1624 48.1429C27.2264 47.9987 27.9471 47.4702 28.7639 46.9898C29.5967 46.4933 30.2694 46.0288 30.2694 45.9648C30.2694 45.9007 29.3885 45.6124 28.3155 45.3241C27.2424 45.0519 26.1854 44.7476 25.9612 44.6675C24.728 44.187 24.9682 42.4413 26.2815 42.4413C26.5538 42.4413 28.2514 42.8417 30.0612 43.3382L33.3444 44.2191L35.971 42.6495C37.4124 41.7847 38.5975 41.048 38.5975 40.9999C38.5975 40.9519 37.4124 40.2152 35.971 39.3503L33.3604 37.7808L30.0452 38.6616C28.2194 39.1581 26.5217 39.5585 26.2655 39.5585C25.3846 39.5585 24.8401 38.4534 25.3686 37.7648C25.6249 37.4124 25.9292 37.3003 28.3155 36.6757C29.3885 36.3874 30.2694 36.0991 30.2694 36.0351C30.2694 35.971 29.5967 35.5066 28.7639 35.0101C27.9471 34.5296 27.2264 34.0011 27.1624 33.857C26.8581 33.0402 27.3546 32.1913 28.1393 32.1913C28.3635 32.1913 29.1323 32.5277 29.821 32.928C30.5096 33.3445 31.1182 33.6327 31.1663 33.5847C31.2143 33.5366 31.0221 32.6077 30.7339 31.5027C30.1573 29.2925 30.1893 28.8441 30.9741 28.4757C31.4866 28.2515 32.2393 28.5398 32.4635 29.0363C32.5596 29.2284 33.0081 30.798 33.4565 32.5116L34.3053 35.6347L36.9159 37.1882C38.3573 38.053 39.5745 38.7577 39.6225 38.7577C39.6706 38.7577 39.7186 37.6206 39.7186 36.2433V33.7288L37.2362 31.2304C35.0741 29.0523 34.7538 28.6519 34.7538 28.2195C34.7538 27.5628 35.2503 27.0663 35.8909 27.0663C36.3233 27.0663 36.6596 27.3226 38.053 28.6999L39.7186 30.3335V28.7159C39.7186 27.0183 39.8788 26.3296 40.3112 25.9773C40.6315 25.753 41.2241 25.721 41.6405 25.9452Z"
+                                        fill="#01639E" />
+                                </svg>
+                            </div>
+                            <p class="ff_jakarta fs_md color_darkblack fw-semibold lh_150  pb_22 mb-0 text-center">
+                                CUSTOMIZE YOU BOOTH</p>
+                        </div>
+                        <button class="ff_jakarta fs_xsm fw-semibold lh_150 color_white  mb-0 bg_blue contact_btn">
+                            CONTACT US
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- table -->
+    <div class="custom_container">
+        <div class="pt-lg-2">
+            <div class="py-5 my-sm-4 " data-aos="zoom-in" data-aos-delay="500">
+                <h2 class="text-center ff_barlow fs_3xl  fst-normal fw-semibold  lh_120 ">COMPARE BOOTHS</h2>
+                <div class="overflow-x-scroll">
+                    <div class="mt-3 pt-sm-3 min_w_table ">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th scope="row">BOOTH SIZE / DETAILS</th>
+                                    <td>L (main)</td>
+                                    <td>M</td>
+                                    <td>S</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">Expo space day 2 & 3</th>
+                                    <td>20 m²</td>
+                                    <td>8 m²</td>
+                                    <td>3 m²</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Branded wall size</th>
+                                    <td>4.5 m</td>
+                                    <td>3 m</td>
+                                    <td>1.5 m</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Meet Market</th>
+                                    <td><img src="./assets/image/svg/Mask_group.svg" alt="Mask_group"></td>
+                                    <td><img src="./assets/image/svg/Mask_group.svg" alt="Mask_group"></td>
+                                    <td><img src="./assets/image/svg/Mask_group.svg" alt="Mask_group"></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Sofas</th>
+                                    <td>2</td>
+                                    <td>1</td>
+                                    <td><img src="./assets/image/svg/red_crosssvg.svg" alt="red_crosssvg"></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Coffee table</th>
+                                    <td>4</td>
+                                    <td>2</td>
+                                    <td><img src="./assets/image/svg/red_crosssvg.svg" alt="red_crosssvg"></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Coffee stool</th>
+                                    <td>2</td>
+                                    <td>2</td>
+                                    <td><img src="./assets/image/svg/red_crosssvg.svg" alt="red_crosssvg"></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Cocktail table</th>
+                                    <td><img src="./assets/image/svg/red_crosssvg.svg" alt="red_crosssvg"></td>
+                                    <td><img src="./assets/image/svg/red_crosssvg.svg" alt="red_crosssvg"></td>
+                                    <td>1</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Cocktail chair</th>
+                                    <td><img src="./assets/image/svg/red_crosssvg.svg" alt="red_crosssvg"></td>
+                                    <td><img src="./assets/image/svg/red_crosssvg.svg" alt="red_crosssvg"></td>
+                                    <td>2</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">TV</th>
+                                    <td><img src="./assets/image/svg/Mask_group.svg" alt="Mask_group"></td>
+                                    <td><img src="./assets/image/svg/red_crosssvg.svg" alt="red_crosssvg"></td>
+                                    <td><img src="./assets/image/svg/red_crosssvg.svg" alt="red_crosssvg"></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Website logo</th>
+                                    <td><img src="./assets/image/svg/Mask_group.svg" alt="Mask_group"></td>
+                                    <td><img src="./assets/image/svg/Mask_group.svg" alt="Mask_group"></td>
+                                    <td><img src="./assets/image/svg/Mask_group.svg" alt="Mask_group"></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Booth print included</th>
+                                    <td><img src="./assets/image/svg/Mask_group.svg" alt="Mask_group"></td>
+                                    <td><img src="./assets/image/svg/Mask_group.svg" alt="Mask_group"></td>
+                                    <td><img src="./assets/image/svg/Mask_group.svg" alt="Mask_group"></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Executive tickets included</th>
+                                    <td>10</td>
+                                    <td>6</td>
+                                    <td>4</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Additional tickets discount</th>
+                                    <td>30%</td>
+                                    <td>20%</td>
+                                    <td>20%</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Branding and exposure overall</th>
+                                    <td>high</td>
+                                    <td>small</td>
+                                    <td>small</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">The networking dinner branding</th>
+                                    <td><img src="./assets/image/svg/Mask_group.svg" alt="Mask_group"></td>
+                                    <td><img src="./assets/image/svg/red_crosssvg.svg" alt="red_crosssvg"></td>
+                                    <td><img src="./assets/image/svg/red_crosssvg.svg" alt="red_crosssvg"></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Table at all parties (2)</th>
+                                    <td>included</td>
+                                    <td>extra</td>
+                                    <td>extra</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Possibility to be a speaker in one of the panels</th>
+                                    <td><img src="./assets/image/svg/Mask_group.svg" alt="Mask_group"></td>
+                                    <td><img src="./assets/image/svg/red_crosssvg.svg" alt="red_crosssvg"></td>
+                                    <td><img src="./assets/image/svg/red_crosssvg.svg" alt="red_crosssvg"></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Executive lounge branding</th>
+                                    <td><img src="./assets/image/svg/Mask_group.svg" alt="Mask_group"></td>
+                                    <td><img src="./assets/image/svg/red_crosssvg.svg" alt="red_crosssvg"></td>
+                                    <td><img src="./assets/image/svg/red_crosssvg.svg" alt="red_crosssvg"></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Event app branding</th>
+                                    <td><img src="./assets/image/svg/Mask_group.svg" alt="Mask_group"></td>
+                                    <td><img src="./assets/image/svg/red_crosssvg.svg" alt="red_crosssvg"></td>
+                                    <td><img src="./assets/image/svg/red_crosssvg.svg" alt="red_crosssvg"></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">App listing sponsors</th>
+                                    <td><img src="./assets/image/svg/Mask_group.svg" alt="Mask_group"></td>
+                                    <td><img src="./assets/image/svg/Mask_group.svg" alt="Mask_group"></td>
+                                    <td><img src="./assets/image/svg/Mask_group.svg" alt="Mask_group"></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">You logo listed in show guide brochure</th>
+                                    <td><img src="./assets/image/svg/Mask_group.svg" alt="Mask_group"></td>
+                                    <td><img src="./assets/image/svg/red_crosssvg.svg" alt="red_crosssvg"></td>
+                                    <td><img src="./assets/image/svg/red_crosssvg.svg" alt="red_crosssvg"></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Your logo listed on the events badges</th>
+                                    <td><img src="./assets/image/svg/Mask_group.svg" alt="Mask_group"></td>
+                                    <td><img src="./assets/image/svg/red_crosssvg.svg" alt="red_crosssvg"></td>
+                                    <td><img src="./assets/image/svg/red_crosssvg.svg" alt="red_crosssvg"></td>
+                                </tr>
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                    <th>Available</th>
+                                    <td>4</td>
+                                    <td>16</td>
+                                    <td>32</td>
+                                </tr>
+                                <tr>
+                                    <th>Price EUR</th>
+                                    <td>25,000</td>
+                                    <td>10,000</td>
+                                    <td>4,000</td>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Terrace-Section -->
+    <section class="bg_terrace pb_86 pt_100 mt_min2">
+        <div class="custom_container py-5 py-lg-0" data-aos="zoom-in" data-aos-delay="500">
+            <div class="pb_40">
+                <img class="w-100" src="./assets/image/webp/terrace_img.webp" alt="terrace_img">
+            </div>
+            <div class="text-center">
+                <button class="ff_barlow color_white fw-semibold lh_150 mx-auto fs_lg contact_btn2 mb-0">CONTACT
+                    US</button>
+            </div>
+        </div>
+    </section>
+    <!-- ===========SPONSORSHIP PACKAGES============== -->
+    <section class="py-5">
+        <div class="custom_container my-lg-5 py-md-4">
+            <h2 class="fw-medium lh_150 color_black ff_barlow fs_3xl text-center mb-5">VIEW SPONSORSHIP PACKAGES</h2>
+            <div class="row justify-content-center pb-3">
+                <div class="col-lg-4 col-sm-6 d-flex justify-content-center mb-4"data-aos="zoom-in" data-aos-delay="500">
+                    <div class="sponsorship_packages_cards">
+                        <div class="d-flex justify-content-center mb-3">
+                            <img src="./assets/image/webp/sponsors_packages1.webp" alt="sponsors_packages1" />
+                        </div>
+                        <div class="d-flex justify-content-between pt-1">
+                            <h3 class="ff_jakarta color_white fw-semibold fs_md lh_150 mb-0">
+                                Diamond package
+                            </h3>
+                            <p class="ff_jakarta color_white fw-normal fs_md lh_150 mt-1 mb-0">
+                                $70,000
+                            </p>
+                        </div>
+                        <p class="fs_xsm fw-normal ff_jakarta color_green lh_150 pb-3 mb-0">
+                            3/3 AVAILABLE
+                        </p>
+                        <div class="sponsorship_packages_line my-1"></div>
+                        <div class="d-flex justify-content-between align-items-center mb-4 pt-2">
+                            <p class="ff_jakarta fs_md fw-normal color_white lh_150 mb-0">36m<sup>2</sup></p>
+                            <button class="border-0 bg-transparent fs_md fw-normal color_white lh_150 mb-0">Learn More
+                                <span class="ms-1"><img src="./assets/image/svg/learn_more_arrow.svg"
+                                        alt="arrow"></span></button>
+                        </div>
+                        <button
+                            class="ff_barlow fw-medium color_white fs_md lh_150 sponsorship_request_btn d-inline-block">Submit
+                            A Request</button>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 d-flex justify-content-center mb-4"data-aos="zoom-in" data-aos-delay="500">
+                    <div class="sponsorship_packages_cards position-relative overflow-hidden">
+                        <div class="sold_out">
+                            <h3 class="fw-medium color_black ff_barlow lh_150 fs_2xsm text-center mb-0">Sold Out</h3>
+                        </div>
+                        <div class="d-flex justify-content-center mb-3">
+                            <img src="./assets/image/webp/sponsors_packages2.webp" alt="sponsors_packages1" />
+                        </div>
+                        <div class="d-flex justify-content-between pt-1">
+                            <h3 class="ff_jakarta color_white fw-semibold fs_md lh_150 mb-0">
+                                General sponsor
+                            </h3>
+                            <p class="ff_jakarta color_white fw-normal fs_md lh_150 mt-1 mb-0">
+                                $130,000
+                            </p>
+                        </div>
+                        <p class="fs_xsm fw-normal ff_jakarta color_light-red lh_150 pb-3 mb-0">
+                            0/3 AVAILABLE
+                        </p>
+                        <div class="sponsorship_packages_line my-1"></div>
+                        <div class="d-flex justify-content-between align-items-center mb-4 pt-2">
+                            <p class="ff_jakarta fs_md fw-normal color_white lh_150 mb-0">54m<sup>2</sup></p>
+                            <button
+                                class="border-0 bg-transparent ff_jakarta fs_md fw-normal color_white lh_150 mb-0">Learn
+                                More <span class="ms-1"><img src="./assets/image/svg/learn_more_arrow.svg"
+                                        alt="arrow"></span></button>
+                        </div>
+                        <button
+                            class="ff_barlow fw-medium color_white fs_md lh_150 sponsorship_request_btn d-inline-block opacity-25">Submit
+                            A Request</button>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 d-flex justify-content-center mb-4"data-aos="zoom-in" data-aos-delay="500">
+                    <div class="sponsorship_packages_cards">
+                        <div class="d-flex justify-content-center mb-3">
+                            <img src="./assets/image/webp/sponsors_packages3.webp" alt="sponsors_packages1" />
+                        </div>
+                        <div class="d-flex justify-content-between pt-1">
+                            <h3 class="ff_jakarta color_white fw-semibold fs_md lh_150 mb-0">
+                                Premium Area
+                            </h3>
+                            <p class="ff_jakarta color_white fw-normal fs_md lh_150 mt-1 mb-0">
+                                $60,000
+                            </p>
+                        </div>
+                        <p class="fs_xsm fw-normal ff_jakarta color_green lh_150 pb-3 mb-0">
+                            3/8 AVAILABLE
+                        </p>
+                        <div class="sponsorship_packages_line my-1"></div>
+                        <div class="d-flex justify-content-between align-items-center mb-4 pt-2">
+                            <p class="ff_jakarta fs_md fw-normal color_white lh_150 mb-0">48m<sup>2</sup></p>
+                            <button
+                                class="border-0 bg-transparent ff_jakarta fs_md fw-normal color_white lh_150 mb-0">Learn
+                                More <span class="ms-1"><img src="./assets/image/svg/learn_more_arrow.svg"
+                                        alt="arrow"></span></button>
+                        </div>
+                        <button
+                            class="ff_barlow fw-medium color_white fs_md lh_150 sponsorship_request_btn d-inline-block">Submit
+                            A Request</button>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 d-flex justify-content-center mb-4"data-aos="zoom-in" data-aos-delay="500">
+                    <div class="sponsorship_packages_cards position-relative overflow-hidden">
+                        <div class="sold_out">
+                            <h3 class="fw-medium color_black ff_barlow lh_150 fs_2xsm text-center mb-0">Sold Out</h3>
+                        </div>
+                        <div class="d-flex justify-content-center mb-3">
+                            <img src="./assets/image/webp/sponsors_packages1.webp" alt="sponsors_packages1" />
+                        </div>
+                        <div class="d-flex justify-content-between pt-1">
+                            <h3 class="ff_jakarta color_white fw-semibold fs_md lh_150 mb-0">
+                                Premium Area
+                            </h3>
+                            <p class="ff_jakarta color_white fw-normal fs_md lh_150 mt-1 mb-0">
+                                $50,000
+                            </p>
+                        </div>
+                        <p class="fs_xsm fw-normal ff_jakarta color_light-red lh_150 pb-3 mb-0">
+                            0/3 AVAILABLE
+                        </p>
+                        <div class="sponsorship_packages_line my-1"></div>
+                        <div class="d-flex justify-content-between align-items-center mb-4 pt-2">
+                            <p class="ff_jakarta fs_md fw-normal color_white lh_150 mb-0">36m<sup>2</sup></p>
+                            <button
+                                class="border-0 bg-transparent ff_jakarta fs_md fw-normal color_white lh_150 mb-0">Learn
+                                More <span class="ms-1"><img src="./assets/image/svg/learn_more_arrow.svg"
+                                        alt="arrow"></span></button>
+                        </div>
+                        <button
+                            class="ff_barlow fw-medium color_white fs_md lh_150 sponsorship_request_btn d-inline-block opacity-25">Submit
+                            A Request</button>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 d-flex justify-content-center mb-4"data-aos="zoom-in" data-aos-delay="500">
+                    <div class="sponsorship_packages_cards position-relative overflow-hidden">
+                        <div class="sold_out">
+                            <h3 class="fw-medium color_black ff_barlow lh_150 fs_2xsm text-center mb-0">Sold Out</h3>
+                        </div>
+                        <div class="d-flex justify-content-center mb-3">
+                            <img src="./assets/image/webp/sponsors_packages5.webp" alt="sponsors_packages1" />
+                        </div>
+                        <div class="d-flex justify-content-between pt-1">
+                            <h3 class="ff_jakarta color_white fw-semibold fs_md lh_150 mb-0">
+                                Premium Area
+                            </h3>
+                            <p class="ff_jakarta color_white fw-normal fs_md lh_150 mt-1 mb-0">
+                                $30,000
+                            </p>
+                        </div>
+                        <p class="fs_xsm fw-normal ff_jakarta color_light-red lh_150 pb-3 mb-0">
+                            0/3 AVAILABLE
+                        </p>
+                        <div class="sponsorship_packages_line my-1"></div>
+                        <div class="d-flex justify-content-between align-items-center mb-4 pt-2">
+                            <p class="ff_jakarta fs_md fw-normal color_white lh_150 mb-0">54m<sup>2</sup></p>
+                            <button
+                                class="border-0 bg-transparent ff_jakarta fs_md fw-normal color_white lh_150 mb-0">Learn
+                                More <span class="ms-1"><img src="./assets/image/svg/learn_more_arrow.svg"
+                                        alt="arrow"></span></button>
+                        </div>
+                        <button
+                            class="ff_barlow fw-medium color_white fs_md lh_150 sponsorship_request_btn d-inline-block opacity-25">Submit
+                            A Request</button>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 d-flex justify-content-center mb-4"data-aos="zoom-in" data-aos-delay="500">
+                    <div class="sponsorship_packages_cards">
+                        <div class="d-flex justify-content-center mb-3">
+                            <img src="./assets/image/webp/sponsors_packages6.webp" alt="sponsors_packages1" />
+                        </div>
+                        <div class="d-flex justify-content-between pt-1">
+                            <h3 class="ff_jakarta color_white fw-semibold fs_md lh_150 mb-0">
+                                Premium Area
+                            </h3>
+                            <p class="ff_jakarta color_white fw-normal fs_md lh_150 mt-1 mb-0">
+                                $70,000
+                            </p>
+                        </div>
+                        <p class="fs_xsm fw-normal ff_jakarta color_green lh_150 pb-3 mb-0">
+                            3/8 AVAILABLE
+                        </p>
+                        <div class="sponsorship_packages_line my-1"></div>
+                        <div class="d-flex justify-content-between align-items-center mb-4 pt-2">
+                            <p class="ff_jakarta fs_md fw-normal color_white lh_150 mb-0">48m<sup>2</sup></p>
+                            <button
+                                class="border-0 bg-transparent ff_jakarta fs_md fw-normal color_white lh_150 mb-0">Learn
+                                More <span class="ms-1"><img src="./assets/image/svg/learn_more_arrow.svg"
+                                        alt="arrow"></span></button>
+                        </div>
+                        <button
+                            class="ff_barlow fw-medium color_white fs_md lh_150 sponsorship_request_btn d-inline-block">Submit
+                            A Request</button>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 d-flex justify-content-center mb-lg-0 mb-4"data-aos="zoom-in" data-aos-delay="500">
+                    <div class="sponsorship_packages_cards">
+                        <div class="d-flex justify-content-center mb-3">
+                            <img src="./assets/image/webp/sponsors_packages7.webp" alt="sponsors_packages1" />
+                        </div>
+                        <div class="d-flex justify-content-between pt-1">
+                            <h3 class="ff_jakarta color_white fw-semibold fs_md lh_150 mb-0">
+                                Diamond package
+                            </h3>
+                            <p class="ff_jakarta color_white fw-normal fs_md lh_150 mt-1 mb-0">
+                                $45,000
+                            </p>
+                        </div>
+                        <p class="fs_xsm fw-normal ff_jakarta color_green lh_150 pb-3 mb-0">
+                            3/3 AVAILABLE
+                        </p>
+                        <div class="sponsorship_packages_line my-1"></div>
+                        <div class="d-flex justify-content-between align-items-center mb-4 pt-2">
+                            <p class="ff_jakarta fs_md fw-normal color_white lh_150 mb-0">36m<sup>2</sup></p>
+                            <button
+                                class="border-0 bg-transparent ff_jakarta fs_md fw-normal color_white lh_150 mb-0">Learn
+                                More <span class="ms-1"><img src="./assets/image/svg/learn_more_arrow.svg"
+                                        alt="arrow"></span></button>
+                        </div>
+                        <button
+                            class="ff_barlow fw-medium color_white fs_md lh_150 sponsorship_request_btn d-inline-block">Submit
+                            A Request</button>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 d-flex justify-content-center mb-lg-0 mb-4"data-aos="zoom-in" data-aos-delay="500">
+                    <div class="sponsorship_packages_cards">
+                        <div class="d-flex justify-content-center mb-3">
+                            <img src="./assets/image/webp/sponsors_packages8.webp" alt="sponsors_packages1" />
+                        </div>
+                        <div class="d-flex justify-content-between pt-1">
+                            <h3 class="ff_jakarta color_white fw-semibold fs_md lh_150 mb-0">
+                                Premium Area
+                            </h3>
+                            <p class="ff_jakarta color_white fw-normal fs_md lh_150 mt-1 mb-0">
+                                $35,000
+                            </p>
+                        </div>
+                        <p class="fs_xsm fw-normal ff_jakarta color_green lh_150 pb-3 mb-0">
+                            2/8 AVAILABLE
+                        </p>
+                        <div class="sponsorship_packages_line my-1"></div>
+                        <div class="d-flex justify-content-between align-items-center mb-4 pt-2">
+                            <p class="ff_jakarta fs_md fw-normal color_white lh_150 mb-0">54m<sup>2</sup></p>
+                            <button
+                                class="border-0 bg-transparent ff_jakarta fs_md fw-normal color_white lh_150 mb-0">Learn
+                                More <span class="ms-1"><img src="./assets/image/svg/learn_more_arrow.svg"
+                                        alt="arrow"></span></button>
+                        </div>
+                        <button
+                            class="ff_barlow fw-medium color_white fs_md lh_150 sponsorship_request_btn d-inline-block">Submit
+                            A Request</button>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 d-flex justify-content-center"data-aos="zoom-in" data-aos-delay="500">
+                    <div class="sponsorship_packages_cards">
+                        <div class="d-flex justify-content-center mb-3">
+                            <img src="./assets/image/webp/sponsors_packages9.webp" alt="sponsors_packages1" />
+                        </div>
+                        <div class="d-flex justify-content-between pt-1">
+                            <h3 class="ff_jakarta color_white fw-semibold fs_md lh_150 mb-0">
+                                General sponsor
+                            </h3>
+                            <p class="ff_jakarta color_white fw-normal fs_md lh_150 mt-1 mb-0">
+                                $65,000
+                            </p>
+                        </div>
+                        <p class="fs_xsm fw-normal ff_jakarta color_green lh_150 pb-3 mb-0">
+                            3/8 AVAILABLE
+                        </p>
+                        <div class="sponsorship_packages_line my-1"></div>
+                        <div class="d-flex justify-content-between align-items-center mb-4 pt-2">
+                            <p class="ff_jakarta fs_md fw-normal color_white lh_150 mb-0">48m<sup>2</sup></p>
+                            <button
+                                class="border-0 bg-transparent ff_jakarta fs_md fw-normal color_white lh_150 mb-0">Learn
+                                More <span class="ms-1"><img src="./assets/image/svg/learn_more_arrow.svg"
+                                        alt="arrow"></span></button>
+                        </div>
+                        <button
+                            class="ff_barlow fw-medium color_white fs_md lh_150 sponsorship_request_btn d-inline-block">Submit
+                            A Request</button>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex flex-sm-row flex-column align-items-center justify-content-center gap-3 mt-4"data-aos="fade-up" data-aos-delay="500">
+                <button class="sponsors_btn color_white fw-semibold ff_barlow fs_lg border-0">Show More</button>
+                <button class="sponsors_btn color_white fw-semibold ff_barlow fs_lg border-0">Download Brochure
+            </div>
+    </section>
+    <!-- ===========SPONSORSHIP PACKAGES END============== -->
+    <!-- =============IMAGE=========== -->
+    <section class="d-flex justify-content-center">
+        <div class="grid_container"data-aos="zoom-in" data-aos-delay="500">
+            <div class="grid_item1"><img class="w-100 h-100" src="/assets/image/webp/sponsors_img1.webp"
+                    alt="sponsors_img1"></div>
+            <div class="grid_item2"><img class="w-100 h-100" src="/assets/image/webp/sponsors_img2.webp"
+                    alt="sponsors_img2"></div>
+            <div class="grid_item3"><img class="w-100 h-100" src="/assets/image/webp/sponsors_img3.webp"
+                    alt="sponsors_img3"></div>
+            <div class="grid_item4"><img class="w-100 h-100" src="/assets/image/webp/sponsors_img4.webp"
+                    alt="sponsors_img4"></div>
+            <div class="grid_item5"><img class="w-100 h-100" src="/assets/image/webp/sponsors_img5.webp"
+                    alt="sponsors_img5"></div>
+            <div class="grid_item6"><img class="w-100 h-100" src="/assets/image/webp/sponsors_img6.webp"
+                    alt="sponsors_img6"></div>
+        </div>
+    </section>
+    <!-- =============IMAGE END=========== -->
+    <!-- ==========FORM SECTION============ -->
+    <div class="form_bg py-5">
+        <div class="custom_container py-sm-5 my-sm-2 ">
+            <div class="form_box mx-3 mx-xl-0" data-aos="zoom-in" data-aos-delay="300">
+                <h2 class="fs_3xl ff_barlow fw-semibold color_white text-center mb-3 lh_120">
+                    NEVER MISS AN UPDATE
+                </h2>
+                <p class="fs_lg ff_jakarta fw-normal color_white text-center opacity-75 lh_125">
+                    Sign up for email updates and stay up to date
+                </p>
+                <form class="d-flex gap-3 mt-4 pt-2 flex-sm-row flex-column">
+                    <input class="w-100 bg-transparent ff_jakarta fs_xsm fw-normal opacity-75" type="text"
+                        placeholder="YOUR NANE" />
+                    <input class="w-100 bg-transparent ff_jakarta fs_xsm fw-normal opacity-75" type="email"
+                        placeholder="EMAIL ADDRESS" />
+                </form>
+                <div
+                    class="d-flex align-items-center justify-content-between mt-4 pt-3 flex-sm-row flex-column gap-sm-0 gap-4">
+                    <div class="d-flex align-items-center">
+                        <span onclick="check()"
+                            class="check_border d-flex align-items-center justify-content-center me-2 cursor_pointer">
+                            <img id="check" class="d-none" src="./assets/image/svg/checkbox.svg"
+                                alt="iconamoon_check" />
+                        </span>
+                        <p class="ff_jakarta fw-normal fs_xsm color_white mb-0 lh_150 ps-1">
+                            I Agree With Terms & Conditions
+                        </p>
+                    </div>
+                    <button class="submit_btn ff_barlow fs_lg fw-semibold color_white lh_150">
+                        Submit
+                    </button>
+                </div>
+                <div
+                    class="d-flex gap-sm-3 align-items-center justify-content-center mt-4 pt-sm-3 flex-sm-row flex-column gap-2">
+                    <p class="ff_barlow fw-normal color_white fs_2xl mb-0 text-center lh_135">
+                        Join Our Online Communities
+                    </p>
+                    <div class="d-flex align-items-center ">
+                        <a href="https://facebook.com" target="blank">
+                            <img class="img_scale_hover" src="/assets/image/svg/form_fb_icon.svg" alt="facebook_icon" />
+                        </a>
+                        <a class="mx-2 px-1" href="https://telegram.com" target="blank">
+                            <img class="img_scale_hover" src="/assets/image/svg/form_telegram_icon.svg"
+                                alt="telegram_icon" />
+                        </a>
+                        <a href="https://instagram.com" target="blank">
+                            <img class="img_scale_hover" src="/assets/image/svg/form_instagram_icon.svg"
+                                alt="instagram_icon" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ==========FORM SECTION END========== -->
+    <!-- ==========FOOTER================= -->
+    <div class="pb-4 pt-5">
+        <div class="custom_container mb-sm-2">
+            <div
+                class="d-flex justify-content-md-between align-items-center justify-content-center flex-column flex-xl-row gap-3">
+                <div class="d-flex flex-column">
+                    <img class="mb-3 cursor_pointer w_200 mx-auto ms-lg-0 w_lg_250"
+                        src="./assets/image/svg/footer_logo.svg" alt="logo" />
+                    <div class="d-flex align-items-center">
+                        <p
+                            class="ff_jakarta fw-normal color_black fs_xsm opacity-75 me-1 mb-0 lh_150 link_hover cursor_pointer">
+                            AWSummit Events
+                        </p>
+                        <span class="line mx-2"></span>
+                        <p
+                            class="ff_jakarta fw-normal color_black fs_xsm opacity-75 ms-1 mb-0 lh_150 link_hover cursor_pointer">
+                            Bucharest and lbiza
+                        </p>
+                    </div>
+                </div>
+                <div class="d-flex flex-column align-items-center">
+                    <div class="d-flex align-items-center justify-content-center flex-wrap gap-sm-0 gap-2 pb-2 mb-1">
+                        <a class="ff_jakarta fw-normal color_black fs_xsm opacity-75 me-sm-2 pe-sm-1 text-decoration-none lh_150 link_hover"
+                            href="#privacy">Privacy Policy
+                        </a>
+                        <span class="line d-sm-block d-none"></span>
+                        <a class="ff_jakarta fw-normal color_black fs_xsm opacity-75 ms-sm-2 ps-sm-1 me-sm-2 pe-sm-1 text-decoration-none lh_150 link_hover"
+                            href="#terms">Terms and Conditions
+                        </a>
+                        <span class="line d-sm-block d-none"></span>
+                        <a class="ff_jakarta fw-normal color_black fs_xsm opacity-75 me-sm-2 pe-sm-1 ms-sm-2 ps-sm-1 text-decoration-none lh_150 link_hover"
+                            href="#support">Billing Support
+                        </a>
+                        <span class="line d-sm-block d-none"></span>
+                        <a class="ff_jakarta fw-normal color_black fs_xsm opacity-75 ms-sm-2 ps-sm-1 text-decoration-none lh_150 link_hover"
+                            href="#contact">Contact Us
+                        </a>
+                    </div>
+                    <p class="ff_jakarta fw-normal color_black fs_xsm opacity-75 text-cente mt-2 mt-sm-0 ">
+                        <span><img src="./assets/image/svg/copyright.svg" alt="copyright" /></span>2023-24. All Rights
+                        Reserved
+                    </p>
+                </div>
+                <div class="d-flex gap-2 justify-content-center align-items-center">
+                    <a class="me-1" href="https://facebook.com" target="_blank"><img class="img_scale_hover"
+                            src="./assets/image/svg/facebook_icon.svg" alt="facebook" /></a>
+                    <a class="me-1" href="https://instagram.com" target="_blank"><img class="img_scale_hover"
+                            src="./assets/image/svg/instagram_icon.svg" alt="instagram" /></a>
+                    <a class="me-1" href="https://twitter.com" target="_blank"><img class="img_scale_hover"
+                            src="./assets/image/svg/twitter_icon.svg" alt="twitter_icon" /></a>
+                    <a class="me-1" href="https://linkedin.com" target="_blank"><img class="img_scale_hover"
+                            src="./assets/image/svg/linkedin_icon.svg" alt="linkedin_icon" /></a>
+                    <a href="https://linkedin.com" target="_blank"><img class="img_scale_hover"
+                            src="./assets/image/svg/youtube_icon.svg" alt="youtube_icon" /></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ==========FOOTER END================= -->
+    <button onclick="topFunction()" id="back-top" title="Go to top" class="back_top img_scale_hover ">
+        <svg class="mb-1" width="20" height="20" fill="white" viewBox="0 0 16 16">
+            <path fillRule="evenodd"
+                d="M7.646 2.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 3.707 2.354 9.354a.5.5 0 1 1-.708-.708l6-6z">
+            </path>
+            <path fillRule="evenodd"
+                d="M7.646 6.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 7.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z">
+            </path>
+        </svg></button>
+    </div>
+    <!-- =====JQUERY LINK==== -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+        integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- =======SLICK JS LINK======= -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- aos js -->
+    <!-- bootstarp js link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- js Link -->
+    <script src="./assets/js/app1.js"></script>
+
+</body>
+
+</html>
